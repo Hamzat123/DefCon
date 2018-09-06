@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <title>DEF CON</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a class="nav" href="#home">Home</a>
+            <div class="subnav">
+                <button class="subnavbtn"><a class="drp-dwn" href="#">About <i class="fa fa-caret-down"></i></a></button>
+                <div class="subnav-content">
+                    <a class="nav" href="#">Contact</a>
+                    <a class="nav" href="#">FAQ</a>
+                    <a class="nav" href="#">Policies</a>
+                    <a class="nav" href="#">Gallery</a>
+                </div>
+            </div> 
+            <a class="nav" href="#">News</a>
+            <div class="subnav">
+                <button class="subnavbtn"><a class="drp-dwn" href="#">Program <i class="fa fa-caret-down"></i></a></button>
+                <div class="subnav-content">
+                    <a class="nav" href="#">Speakers</a>
+                    <a class="nav" href="#">Schedule</a>
+                    <a class="nav" href="#">Contests &amp; Events</a>
+                    <a class="nav" href="#">Sponsors</a>
+                </div>
+            </div> 
+            <a class="nav" href="#">Blog</a>
+        </div>
+        <div class="header-content">
+            <div class="see-you">See you in...</div>
+            <div id="clock">
+                <script>
+                    var countDownDate = new Date("Sep 9, 2018 09:00:00").getTime();
+                    var x = setInterval(function () {
+                        var now = new Date().getTime();
+                        var distance = countDownDate - now;
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+                        document.getElementById("clock").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+    
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("clock").innerHTML = "RIGHT NOW!";
+                        }
+                    }, 1000);
+                </script>
+            </div>
+            <a href="#" class="btn-buy">BUY NOW!</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="news" id="news">
+            <div class="news-flex">
+                <h3>Contests and Events at DEF CON 26 posted!</h3>
+                <div class="news-img">
+                    <img src="resources/img/news1.jpg" alt="recent-news">
+                </div>
+                <p class="news-p">
+                    Now that you’ve had a whole day to absorb the epic Village list, we’ve got some more goodies for you. The Contests and Events page is now LIVE, and it’s also quite a bit to take in. Ranging from the straightforward elegance of the Tin Foil Hat Challenge to the complexity of an Industrial Control Systems CTF competition, there’s contests here for just about any hacker discipline, and every level of skill or experience. Contests are also a great way for the shyer among us to beat the icebreaker blues and get right into some fun with a bunch of likeminded strangers. The more extroverted attendees can still opt for a Charity Mohawk or the cringetastic glory of Hacker Karaoke.
+                </p>
+                <p class="news-p">
+                    Block off a little time for pre-con recon and make a plan to make sure you get to sample widely from the smorgasbord of C&E offerings. Our reunion draws ever closer, fam. Get amped.
+                </p>
+            </div>
+            <div class="news-flex">
+                <h3>Contests and Events at DEF CON 26 posted!</h3>
+                <div class="news-img">
+                    <img src="resources/img/news1.jpg" alt="recent-news">
+                </div>
+                <p class="news-p">
+                    Now that you’ve had a whole day to absorb the epic Village list, we’ve got some more goodies for you. The Contests and Events page is now LIVE, and it’s also quite a bit to take in. Ranging from the straightforward elegance of the Tin Foil Hat Challenge to the complexity of an Industrial Control Systems CTF competition, there’s contests here for just about any hacker discipline, and every level of skill or experience. Contests are also a great way for the shyer among us to beat the icebreaker blues and get right into some fun with a bunch of likeminded strangers. The more extroverted attendees can still opt for a Charity Mohawk or the cringetastic glory of Hacker Karaoke.
+                </p>
+                <p class="news-p">
+                    Block off a little time for pre-con recon and make a plan to make sure you get to sample widely from the smorgasbord of C&E offerings. Our reunion draws ever closer, fam. Get amped.
+                </p>
+            </div>
+            <div class="news-flex">
+                <h3>Contests and Events at DEF CON 26 posted!</h3>
+                <div class="news-img">
+                    <img src="resources/img/news1.jpg" alt="recent-news">
+                </div>
+                <p class="news-p">
+                    Now that you’ve had a whole day to absorb the epic Village list, we’ve got some more goodies for you. The Contests and Events page is now LIVE, and it’s also quite a bit to take in. Ranging from the straightforward elegance of the Tin Foil Hat Challenge to the complexity of an Industrial Control Systems CTF competition, there’s contests here for just about any hacker discipline, and every level of skill or experience. Contests are also a great way for the shyer among us to beat the icebreaker blues and get right into some fun with a bunch of likeminded strangers. The more extroverted attendees can still opt for a Charity Mohawk or the cringetastic glory of Hacker Karaoke.
+                </p>
+                <p class="news-p">
+                    Block off a little time for pre-con recon and make a plan to make sure you get to sample widely from the smorgasbord of C&E offerings. Our reunion draws ever closer, fam. Get amped.
+                </p>
+            </div>
+            <div class="news-flex">
+                <h3>Contests and Events at DEF CON 26 posted!</h3>
+                <div class="news-img">
+                    <img src="resources/img/news1.jpg" alt="recent-news">
+                </div>
+                <p class="news-p">
+                    Now that you’ve had a whole day to absorb the epic Village list, we’ve got some more goodies for you. The Contests and Events page is now LIVE, and it’s also quite a bit to take in. Ranging from the straightforward elegance of the Tin Foil Hat Challenge to the complexity of an Industrial Control Systems CTF competition, there’s contests here for just about any hacker discipline, and every level of skill or experience. Contests are also a great way for the shyer among us to beat the icebreaker blues and get right into some fun with a bunch of likeminded strangers. The more extroverted attendees can still opt for a Charity Mohawk or the cringetastic glory of Hacker Karaoke.
+                </p>
+                <p class="news-p">
+                    Block off a little time for pre-con recon and make a plan to make sure you get to sample widely from the smorgasbord of C&E offerings. Our reunion draws ever closer, fam. Get amped.
+                </p>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery-container">
+                <div class="img-con">
+                    <img src="resources/img/def1.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def2.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def3.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def4.jpg" alt="gallery-image">
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="img-flex">
+                <div class="img-con">
+                    <img src="resources/img/def5.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def6.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def7.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def8.jpg" alt="gallery-image">
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="img-flex">
+                <div class="img-con">
+                    <img src="resources/img/def9.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def10.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def11.jpg" alt="gallery-image">
+                </div>
+            
+                <div class="img-con">
+                    <img src="resources/img/def12.jpg" alt="gallery-image">
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <p>Copyright &copy; 2018 built by DefCon. All rights reserved</p>
+        </div>
+        <div class="arrow-up">
+            <a href="#" class="arrow-icon"><i class="fas fa-angle-double-up"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
